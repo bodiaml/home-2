@@ -1,7 +1,12 @@
-a {
+.link {
   text-decoration: none;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+}
 ul,
 ol {
   list-style: none;
@@ -15,26 +20,32 @@ ol {
   flex-direction: row;
 }
 
+.addressa {
+  font-style: normal;
+}
 .menu,
 .contacts {
   display: flex;
   flex-direction: row;
 }
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.16;
+  line-height: 1.17;
   display: flex;
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: #4d5ae5;
 }
 
+.studio {
+  color: #2e2f42;
+}
 .web {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 18px;
@@ -47,7 +58,7 @@ ol {
 }
 
 .menu-link {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -56,8 +67,12 @@ ol {
   color: #2e2f42;
 }
 
+.studio-menu:hover,
+.studio-menu:focus {
+  color: #404bbf;
+}
 .address {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -66,20 +81,30 @@ ol {
   color: #434455;
 }
 
-/*Main*/
+.contact-mail:hover,
+.contact-mail:focus {
+  color: #404bbf;
+}
+
+/*===============================/Main=============================*/
+
+.hero {
+  background-color: #2e2f42;
+}
 
 .hero-image {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
+  color: #ffffff;
 }
 
 .order-bt {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -92,8 +117,13 @@ ol {
   cursor: pointer;
 }
 
+.order-bt:hover,
+.order-bt:focus {
+  background-color: #404bbf;
+}
+
 .feature {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -103,7 +133,7 @@ ol {
 }
 
 .text-feat {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -115,11 +145,11 @@ ol {
 /*What are we doing*/
 
 .titles {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -134,7 +164,7 @@ ol {
 /*Our Team*/
 
 .name {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -145,7 +175,7 @@ ol {
 }
 
 .profession {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -160,20 +190,57 @@ ol {
   flex-direction: row;
 }
 
+.section-four {
+  background-color: #ffffff;
+}
+
+.name-prof {
+  background-color: #ffffff;
+}
 /*Footer*/
 .text-foot {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #f4f4fd;
 }
 
+.footer {
+  background-color: #2e2f42;
+}
+
+.logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.studio-futer {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
 /*PORTFOLIO*/
 
 .port-title {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -183,7 +250,7 @@ ol {
 }
 
 .port-text {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
@@ -193,7 +260,7 @@ ol {
 }
 
 .filter-but {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
