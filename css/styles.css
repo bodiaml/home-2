@@ -81,6 +81,11 @@ ol {
   color: #434455;
 }
 
+.address:hover,
+.addres:focus {
+  color: #404bbf;
+}
+
 .contact-mail:hover,
 .contact-mail:focus {
   color: #404bbf;
@@ -191,7 +196,7 @@ ol {
 }
 
 .section-four {
-  background-color: #ffffff;
+  background-color: #f4f4fd;
 }
 
 .name-prof {
