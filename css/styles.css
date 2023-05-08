@@ -66,6 +66,10 @@ body {
   color: #2e2f42;
 }
 
+.menu-link:hover,
+.menu-link:focus {
+  color: #404bbf;
+}
 .studio-menu:hover,
 .studio-menu:focus {
   color: #404bbf;
@@ -278,6 +282,11 @@ body {
   cursor: pointer;
 }
 
+.menu-item:hover,
+.menu-item:focus {
+  color: #404bbf;
+}
+
 .filter-but:hover,
 .filter-but:focus {
   color: white;
@@ -288,17 +297,8 @@ body {
   display: flex;
   flex-direction: row;
 }
-.img-room-one {
-  display: flex;
-  flex-direction: row;
-}
 
-.img-room-two {
-  display: flex;
-  flex-direction: row;
-}
-
-.img-room-three {
-  display: flex;
-  flex-direction: row;
+.addr-port:hover,
+.addr-port:focus {
+  color: #404bbf;
 }
