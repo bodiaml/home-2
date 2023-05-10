@@ -76,7 +76,6 @@ body {
 }
 .address {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -101,7 +100,6 @@ body {
 
 .hero-image {
   font-family: "Roboto", sans-serif;
-  font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
@@ -138,7 +136,6 @@ body {
 
 .text-feat {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -149,7 +146,6 @@ body {
 
 .titles {
   font-family: "Roboto", sans-serif;
-  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   text-align: center;
@@ -177,7 +173,6 @@ body {
 
 .profession {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 24px;
   letter-spacing: 0.02em;
@@ -200,7 +195,6 @@ body {
 /*Footer*/
 .text-foot {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -247,7 +241,6 @@ body {
 
 .port-text {
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
